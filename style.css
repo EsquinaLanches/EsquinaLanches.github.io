@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: 'Archivo', sans-serif;*/
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Scroll*/
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: rgb(235, 235, 235);
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #be3600;
+    border: 3px solid rgb(235, 235, 235);
+}
+
+nav{
+    position: fixed;
+    background: #ffffff;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 10px rgba(255, 0, 0, 0.1);
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    padding: 0 0 0 40px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    color: #BA1F3E;
+}
+
+a{
+    color: #BA1F3E;
+}
+
+a:hover{
+    text-decoration: underline  2px;
+    color: #BA1F3E;
+}
+
+header{
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav header img{
+    height: 10vh;
+}
+
+main{
+    width: 100%;
+}
+
+h1{
+    font-size: 8em;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    width: 60%;
+    margin: 0 0 0 10%;
+}
+
+h2{
+    font-size: 5em;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    color: #524949;
+}
+
+.pedido p{
+    margin: 30px 0 0 0;
+    font-size: 1.8em;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    color: #524949;
+}
+
+.inicio{
+    background: linear-gradient(0deg, rgba(134, 5, 5, 0.38), rgba(134, 5, 5, 0.38)), url(imagens/getulio-moraes-Wz3u9_GtkWc-unsplash.jpg) center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.pedido{
+    margin: 50px auto 50px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.textos{
+    width: 50%;
+    height: 100%;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.buttons{
+    width: 50%;
+    margin: 50px 0 0 0;
+    display: flex;
+}
+
+.buttons a{
+    margin: 0 50px 0 0;
+}
+
+.buttons img:hover{
+    filter: drop-shadow(5px 5px 10px rgb(173, 26, 26, 0.7));
+}
+
+h3{
+    font-size: 5em;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.hamburguer{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(134, 5, 5, 0.38), rgba(134, 5, 5, 0.38)), url(imagens/mafe-estudio-LV2p9Utbkbw-unsplash.jpg) center top;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sorvetes{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(134, 5, 5, 0.38), rgba(134, 5, 5, 0.38)), url(imagens/bryn-beatson-YIrLhY5qsQE-unsplash.jpg) center top;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bebidas{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(134, 5, 5, 0.38), rgba(134, 5, 5, 0.38)), url(imagens/pexels-josh-sorenson-990439.jpg) center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+
+footer{ 
+    height: 30vh;
+    background: #BA1F3E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    padding: 10px 0 0 0;
+    font-size: 1.2em;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons img:hover{
+    filter: invert(45%) sepia(7%) saturate(5400%) hue-rotate(313deg) brightness(115%) contrast(105%);
+}
+
+@media (max-width: 1400px){
+    h1{
+        font-size: 6em;
+    }
+
+    h2{
+        font-size: 3em;
+    }
+
+    .pedido p{
+        font-size: 1.4em;
+    }
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 3px;
+    background-color: #BA1F3E;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+@media (max-width: 1200px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .mobile-menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    li{
+        color: #fff;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul{
+        padding: 0;
+    }
+
+    .nav-list{       
+        display: flex;
+        position: absolute;
+        top: 10vh;
+        right: 0;
+        width: 100vw;
+        height: 90vh;
+        background:#BA1F3E ;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li a{
+        color: #fff;
+    }
+
+    .nav-list.active{
+        transform: translateX(0);
+    }
+
+    @keyframes navLinkFade {
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    ul{
+        display: none;
+    }
+    
+    .pedido{
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .textos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    .buttons{
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .buttons a{
+        margin: 0 25px 0 25px;
+    }
+    
+    .imagem{
+        margin: 50px 0 0 0;
+        width: 100%;
+    }
+
+    .imagem img{
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px){
+    h1{
+        font-size: 3em;
+    }
+
+    h2{
+        font-size: 3em;
+    }
+
+    .pedido p{
+        font-size: 1.4em;
+    }
+
+    h3{
+        font-size: 2em;
+    }
+}
+
+.mobile-menu.active .line1{
+    transform: rotate(-45deg) translate(-8px, 10px);
+}
+
+.mobile-menu.active .line2{
+    opacity: 0;
+}
+
+.mobile-menu.active .line3{
+    transform: rotate(45deg) translate(-5px, -8px);
+}
