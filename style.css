@@ -209,6 +209,15 @@ footer p{
     color: #ffffff;
 }
 
+footer span a{
+    color: #fff;
+    font-weight: 700;
+}
+
+footer span a:hover{
+    color: #fff;
+}
+
 .icons{
     width: 200px;
     display: flex;
